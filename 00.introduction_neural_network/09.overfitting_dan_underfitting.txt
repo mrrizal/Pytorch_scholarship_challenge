@@ -1,0 +1,21 @@
+underfitting = solution/model terlalu simple
+overfitting = solution/model terlalu komplex
+
+contoh underfitting dan overfitting dalam ujian:
+underfitting = tidak cukup belajar kemudian gagal
+overfitting = daripada belajar, lebih memilih menghafal textbook kata demi kata,
+dengan menghafal text book kita dapat menjawab dengan baik semua jawaban yang berasal dari text book tersebut.
+namun jika kita diberi pertanyaan diluar text book yang di hafal, kita tidak akan bisa menjawab, karna kita tidak belajar
+
+kabarburuknya, kita akan kesulitan untuk memilih arsitektur neural net yang tepat untuk suatau masalah.
+seringkali arsitektur yang di pilih terlalu simple (underfitting), atau terlalu complex (overfitting).
+
+masalah di atas bisa di analogikan seperti saat kita akan memilih celana.
+ketika kita tidak menemukan celana yang sesuai dengan ukuran kita, lebih baik memilih celana dengan ukuran yang lebih besar,
+kemudian menambahkan ikat pinggang agar pas, daripada kita memilih celana dengan ukuran lebih kecil
+
+celana yang lebih besar = overfitting
+ikat pinggang = solusi agar tidak kebesaran (solusi untuk mencegah overfitting)
+celana yang lebih kecil = underfitting
+
+solusi untuk mencegah overftting inilah yang akan dilakukan kedepannya.

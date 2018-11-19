@@ -1,0 +1,13 @@
+earlystop merupakan salah satu solusi untuk menghindari overfitting dengan cara
+berhenti melakukan trainig (feed dan back prob) pada epoch ke sekian.
+
+epoch kesekian kapan kita berenti ini, ditentukan olah nilai error pada data train dan data test.
+neural net akan terus melakukan training selama nilai error dari data train dan test turun. 
+
+namun ketika nilai error dari data train turun, tetapi nilai error dari data test mulai naik,
+ini menandakan model kita mulai mengalami overfitting, dan pada saat inilah kita menghentikan training
+kemudian kita ambil model yang terbaiknya (model epoch ke berapa)
+
+note:
+- nilai error turun = baik
+- nilai error naik = buruk
