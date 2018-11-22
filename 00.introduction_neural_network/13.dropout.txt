@@ -1,0 +1,3 @@
+lu nonton aja dah disini apa itu drop out, tapi ini merupakan salah satu teknik untuk menghindari overfitting.
+https://www.youtube.com/watch?v=NhZVe50QwPM
+https://www.youtube.com/watch?v=J-oobN-OXM0
